@@ -8,4 +8,13 @@ Personal Portfolio
  * Features my online name, avatar, link to sections about me, my work and how to contact me. 
  * When clicking in the nav, the UI will scroll to the proper section 
  * When clicking on the first image, the user will be directed towards a deployed page with the first challenge I completed. 
- * CSS has comments facilitating information on what the styling sheet does.
+ * CSS has comments facilitating information on what the styling sheet does. 
+
+ ## Website Link
+
+ https://jacsjazz.github.io/portfolio-1/ 
+
+ ## Link to Repository 
+ https://github.com/jacsjazz/portfolio-1 
+
+ ##Screenshot
