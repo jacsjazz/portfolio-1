@@ -17,4 +17,5 @@ Personal Portfolio
  ## Link to Repository 
  https://github.com/jacsjazz/portfolio-1 
 
- ##Screenshot
+ ## Screenshot 
+ ![Portfolio-1](https://github.com/jacsjazz/portfolio-1/assets/163788446/b2fa5599-fff1-411d-a1f6-c51e8ba595e0)
