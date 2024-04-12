@@ -1,0 +1,128 @@
+  /* variables for color */
+  :root {  
+    /*main background color*/
+   --mcolor: #064652;  
+   /*text color */
+   --tcolor: #050000;
+ } 
+  
+ 
+/*Aligns all items in header, creates equal spacing between image and ul's and allows them to be in line. */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--mcolor);
+    color: var(--tcolor)
+  }
+  
+  h1 {
+    font-size: 300%;
+  }  
+  header img { 
+    width: 100px; 
+    height: auto;
+  }
+  /*Converts ul into an inline element with equal spacing*/
+   header ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }   
+  /*Pseudo element that allows for the word Jazz to appear in a different font and color*/
+  h1::after {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    content: 'Jazz';
+    color: #990b75;
+    margin-left: 5px; 
+  }  
+  
+  h2 {  
+    font-size: 100%; 
+    color: var(--tcolor)
+   }  
+ 
+   /* Gives padding to the section and color for the text */
+nav { 
+  color: var(--tcolor);
+  background-color: rgb(14, 105, 128);  
+  padding: 3%;  
+}   
+
+.container {   
+  display: flex;  
+}
+ /*Gives padding to the aside and moves the position of where the h2 lines up*/
+aside { 
+  background-color: rgb(38, 87, 116); 
+  padding: 2%;  
+}  
+  
+article { 
+  padding: 80px;   
+  
+} 
+
+
+section { 
+  color: var(--tcolor);
+  background-color:var(--mcolor); 
+  padding: 3%;    
+   
+}  
+   
+
+/*Gives size to images*/
+section img { 
+  width: 100px; 
+  height: auto;
+}   
+ 
+/* moves images, section and articles to be next to the aside.*/
+.imagecontainer { 
+  display: flex; 
+  flex-wrap: wrap;
+}
+ 
+button:hover { 
+  background-color: aliceblue 
+  color(srgb red green blue);
+} 
+
+ button:active { 
+  font-size: 200%; 
+  box-shadow: 0 0 10px #860c0c inset;
+ } 
+  
+ button:focus { 
+  outline: none;
+  border-color: #7c0a63;
+ }
+ 
+ article ul { 
+  display: flex; 
+  color: aliceblue;
+  justify-content: space-between;
+  min-width: 650px;
+}
+ 
+
+/* Will change bacground colors on different widths for different devices*/
+@media screen and (max-width: 992px) {
+  header {
+    background: #050000;
+  }
+} 
+ 
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+} 
+ 
+@media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+}
